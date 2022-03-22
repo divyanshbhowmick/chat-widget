@@ -10,3 +10,5 @@ export const AVATAR = {
     [USERS.ME]: avatarObjMe,
     [USERS.BOT]: avatarObjBot
 }
+
+export const DEFAULT_MESSAGES = localStorage.getItem('chatMessages') ? JSON.parse(localStorage.getItem('chatMessages')) : [];
